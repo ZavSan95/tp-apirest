@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background-color: #f2f2f2;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.filters {
+  margin-top: 1rem;
+}
+
+input {
+  margin: 0.3rem;
+  padding: 0.5rem;
+}
+
+#results {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
